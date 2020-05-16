@@ -1,0 +1,14 @@
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/bin/Debug/netstandard2.0/MyTipCalculator.deps.json
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/bin/Debug/netstandard2.0/MyTipCalculator.dll
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/bin/Debug/netstandard2.0/ref/MyTipCalculator.dll
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/bin/Debug/netstandard2.0/MyTipCalculator.pdb
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MyTipCalculator.csprojAssemblyReference.cache
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MyTipCalculator.csproj.CoreCompileInputs.cache
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MyTipCalculator.AssemblyInfoInputs.cache
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MyTipCalculator.AssemblyInfo.cs
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MyTipCalculator.dll
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/ref/MyTipCalculator.dll
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/obj/Debug/netstandard2.0/MyTipCalculator.pdb

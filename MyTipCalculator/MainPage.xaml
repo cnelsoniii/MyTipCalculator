@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyTipCalculator.MainPage">
+    <StackLayout>
+        <Frame Margin="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Total Per Person" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                <Label x:Name="totalPerPerson" Text="$0.00" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                <Label Text="Bill" Grid.Row="2" HorizontalOptions="Center"/>
+                <Label x:Name="bill" Text="$0.00" Grid.Row="3" HorizontalOptions="Center"/>
+                <Label Text="Tip" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center"/>
+                <Label x:Name="tip" Text="$0.00" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center"/>
+            </Grid>
+        </Frame>
+
+        <StackLayout Padding="0, 20, 0, 0">
+            <Label Text="Enter Bill Total" HorizontalOptions="Center"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="$" VerticalOptions="Center" />
+                <Entry x:Name="billInput" Placeholder="0.00" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
+            </StackLayout>
+
+            <Label Text="Choose Tip Amount" HorizontalOptions="Center"/>
+            <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="25*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="10%" HorizontalTextAlignment="Center"/>
+                <Label Grid.Column="1" Text="15%" HorizontalTextAlignment="Center"/>
+                <Label Grid.Column="2" Text="20%" HorizontalTextAlignment="Center"/>
+                <Label Grid.Column="3" Text="Edit" HorizontalTextAlignment="Center"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Split" VerticalOptions="Center" />
+                <Entry x:Name="split" Text="1" Keyboard="Numeric"/>
+            </StackLayout>
+        </StackLayout>
+
+
+        <Button Text="Calculate" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
