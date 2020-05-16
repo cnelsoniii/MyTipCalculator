@@ -20,11 +20,11 @@
                 </Grid.RowDefinitions>
 
                 <Label Text="Total Per Person" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
-                <Label x:Name="totalPerPerson" Text="$0.00" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                <Label Text="{Binding Total}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
                 <Label Text="Bill" Grid.Row="2" HorizontalOptions="Center"/>
-                <Label x:Name="bill" Text="$0.00" Grid.Row="3" HorizontalOptions="Center"/>
+                <Label Text="{Binding Bill}" Grid.Row="3" HorizontalOptions="Center"/>
                 <Label Text="Tip" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center"/>
-                <Label x:Name="tip" Text="$0.00" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center"/>
+                <Label Text="{Binding Tip}" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center"/>
             </Grid>
         </Frame>
 
@@ -51,7 +51,7 @@
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Label Text="Split" VerticalOptions="Center" />
-                <Entry x:Name="split" Text="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding Split}" Keyboard="Numeric"/>
             </StackLayout>
         </StackLayout>
 

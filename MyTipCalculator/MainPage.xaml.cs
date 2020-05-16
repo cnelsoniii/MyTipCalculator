@@ -20,13 +20,7 @@ namespace MyTipCalculator
 
         void Button_Clicked(System.Object sender, System.EventArgs e)
         {
-            var billValue = int.Parse(bill.Text);
-            var tipPercentage = 200;
-            var splitValue = int.Parse(split.Text);
 
-            totalPerPerson.Text = CalculateTotalIncludingTip(billValue, tipPercentage).ToString();
-            bill.Text = billInput.ToString();
-            tip.Text = CalculateTip(billValue, tipPercentage).ToString();
         }
 
         int CalculateTotalIncludingTip(int billTotal, int tipPercentage)

@@ -10,7 +10,13 @@ namespace MyTipCalculator
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+
+            var nav = new NavigationPage(new MainPage
+            {
+                BindingContext = new MainPageViewModel()
+            });
+            MainPage = nav;
         }
 
         protected override void OnStart()

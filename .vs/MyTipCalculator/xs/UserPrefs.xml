@@ -1,24 +1,21 @@
 ﻿<Properties StartupConfiguration="{BA8F55B2-2566-42E6-A561-ACBB22D9AE30}|Default">
   <MonoDevelop.Ide.ItemProperties.MyTipCalculator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.35036505-3F82-4F39-8FEF-8682A4F7F0AE" />
   <MonoDevelop.Ide.ItemProperties.MyTipCalculator.Android PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyTipCalculator/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyTipCalculator/MainPageViewModel.cs">
     <Files>
-      <File FileName="MyTipCalculator/MainPage.xaml.cs" Line="23" Column="1" />
+      <File FileName="MyTipCalculator/MainPage.xaml.cs" Line="24" Column="36" />
       <File FileName="MyTipCalculator/MainPage.xaml" Line="53" Column="24" />
       <File FileName="MyTipCalculator/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="MyTipCalculator.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MyTipCalculator.iOS/Main.cs" Line="13" Column="35" />
+      <File FileName="MyTipCalculator/MainPageViewModel.cs" Line="5" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyTipCalculator" expanded="True">
             <Node name="MyTipCalculator" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPageViewModel.cs" selected="True" />
             </Node>
-            <Node name="MyTipCalculator.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,9 +24,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator/MainPage.xaml.cs" relfile="MyTipCalculator/MainPage.xaml.cs" line="40" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
