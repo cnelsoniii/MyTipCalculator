@@ -45,15 +45,15 @@
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/bin/iPhoneSimulator/Debug/MyTipCalculator.dll
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/bin/iPhoneSimulator/Debug/MyTipCalculator.pdb
-/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.csprojAssemblyReference.cache
-/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.csproj.CoreCompileInputs.cache
-/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.csproj.CopyComplete
-/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.exe
-/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.pdb
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/ibtool/_BundleResourceWithLogicalName.items
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_PartialAppManifest.items
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_BundleResourceWithLogicalName.items
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_PartialAppManifest.items
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_BundleResourceWithLogicalName.items
 /Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.csprojAssemblyReference.cache
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.csproj.CoreCompileInputs.cache
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.csproj.CopyComplete
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.exe
+/Users/corneliusnelson/Projects/MyTipCalculator/MyTipCalculator.iOS/obj/iPhoneSimulator/Debug/MyTipCalculator.iOS.pdb

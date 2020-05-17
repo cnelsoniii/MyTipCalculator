@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{BA8F55B2-2566-42E6-A561-ACBB22D9AE30}|Default">
   <MonoDevelop.Ide.ItemProperties.MyTipCalculator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.35036505-3F82-4F39-8FEF-8682A4F7F0AE" />
   <MonoDevelop.Ide.ItemProperties.MyTipCalculator.Android PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyTipCalculator/MainPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyTipCalculator/MainPage.xaml">
     <Files>
-      <File FileName="MyTipCalculator/MainPage.xaml.cs" Line="24" Column="36" />
-      <File FileName="MyTipCalculator/MainPage.xaml" Line="53" Column="24" />
-      <File FileName="MyTipCalculator/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="MyTipCalculator.iOS/Main.cs" Line="13" Column="35" />
-      <File FileName="MyTipCalculator/MainPageViewModel.cs" Line="5" Column="6" />
+      <File FileName="MyTipCalculator/MainPage.xaml.cs" Line="23" Column="1" />
+      <File FileName="MyTipCalculator/MainPage.xaml" Line="55" Column="27" />
+      <File FileName="MyTipCalculator/App.xaml.cs" Line="17" Column="24" />
+      <File FileName="MyTipCalculator/MainPageViewModel.cs" Line="44" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyTipCalculator" expanded="True">
             <Node name="MyTipCalculator" expanded="True">
-              <Node name="MainPageViewModel.cs" selected="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>

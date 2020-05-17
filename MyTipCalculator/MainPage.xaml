@@ -32,7 +32,7 @@
             <Label Text="Enter Bill Total" HorizontalOptions="Center"/>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Label Text="$" VerticalOptions="Center" />
-                <Entry x:Name="billInput" Placeholder="0.00" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
+                <Entry Text="{Binding BillEntry}" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
             </StackLayout>
 
             <Label Text="Choose Tip Amount" HorizontalOptions="Center"/>
@@ -56,6 +56,6 @@
         </StackLayout>
 
 
-        <Button Text="Calculate" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+        <Button Text="Calculate" Command="{Binding CalculateCommand}" HorizontalOptions="Center" VerticalOptions="EndAndExpand"/>
     </StackLayout>
 </ContentPage>
