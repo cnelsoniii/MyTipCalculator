@@ -36,7 +36,7 @@ namespace MyTipCalculator
             }
         }
 
-        double billEntry = 0.00;
+        double billEntry;
         public double BillEntry
         {
             get => billEntry;
@@ -62,6 +62,19 @@ namespace MyTipCalculator
             }
         }
 
+        double tipPercentage = 15;
+        public double TipPercentage
+        {
+            get => tipPercentage;
+            set
+            {
+                if (tipPercentage == value)
+                    return;
+                tipPercentage = value;
+                OnPropertyChanged(nameof(TipPercentage));
+            }
+        }
+
         int split = 1;
         public int Split
         {
@@ -75,6 +88,8 @@ namespace MyTipCalculator
             }
         }
 
+
+
         public MainPageViewModel()
         {
 
@@ -84,7 +99,9 @@ namespace MyTipCalculator
         {
             var split = Split;
             var billEntry = BillEntry;
-            var tipPercentage = 15.0 / 100.0;
+            //Converts TipPercentage to int in order to have rounded value when divided
+            var tipPercetageCovert = (int)TipPercentage;
+            var tipPercentage = tipPercetageCovert / 100.0;
 
             Total = GetTip(billEntry, split, tipPercentage) + GetBill(billEntry, split);
             Tip = GetTip(billEntry, split, tipPercentage);

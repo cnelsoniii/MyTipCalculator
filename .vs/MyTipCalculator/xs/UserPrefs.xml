@@ -3,10 +3,8 @@
   <MonoDevelop.Ide.ItemProperties.MyTipCalculator.Android PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MyTipCalculator/MainPage.xaml">
     <Files>
-      <File FileName="MyTipCalculator/MainPage.xaml.cs" Line="23" Column="1" />
-      <File FileName="MyTipCalculator/MainPage.xaml" Line="55" Column="27" />
-      <File FileName="MyTipCalculator/App.xaml.cs" Line="17" Column="24" />
-      <File FileName="MyTipCalculator/MainPageViewModel.cs" Line="44" Column="14" />
+      <File FileName="MyTipCalculator/MainPage.xaml" Line="39" Column="69" />
+      <File FileName="MyTipCalculator/MainPageViewModel.cs" Line="95" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
