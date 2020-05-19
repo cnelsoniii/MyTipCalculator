@@ -36,7 +36,7 @@
             </StackLayout>
 
             <Label Text="Choose Tip Amount" HorizontalOptions="Center"/>
-            <Label Text="{Binding TipPercentage, StringFormat='{0:0}'}" HorizontalOptions="Center" />
+            <Label Text="{Binding TipPercentage, StringFormat='{0:0}%'}" HorizontalOptions="Center" />
             <Slider Maximum="100" Value="{Binding TipPercentage}" Margin="20, 0"/>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
